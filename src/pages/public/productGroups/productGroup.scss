@@ -1,0 +1,21 @@
+.box-breadcrumb {
+  background-color: #efeded;
+}
+.collection-body {
+  display: flex;
+  padding: 0 15px;
+  margin: 70px 0;
+
+  .box-filter {
+    width: 25%;
+  }
+
+  .container-products {
+    width: 75%;
+    .empty-product {
+      text-align: center;
+      margin: 50px;
+    }
+  }
+
+}

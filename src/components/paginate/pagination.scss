@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(150, 166, 244);
+  font-size: 20px;
+  font-weight: bold;
+
+  li {
+
+    padding: 10px 10px;
+  }
+
+
+}
+
+.box-products {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.active-pagination {
+  color: red;
+}

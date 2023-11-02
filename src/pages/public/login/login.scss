@@ -1,0 +1,46 @@
+.row {
+    margin: 0;
+    .col-md-6 {
+        border-right: 0.5px solid #ededed;
+        padding: 20px 80px 30px 20px;
+
+        h1::after{
+            content: "";
+            background: #000;
+            display: block;
+            width: 60px;
+            height: 4px;
+            margin-top: 30px;
+        }
+
+        .form-login, .reset-password {
+            padding: 10% 0;
+            .reg_pass{
+                margin-left: 20px;
+
+                .custom-link{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #264a9b;
+                }
+
+                .custom-link:hover{
+                    color: #f5d709;
+                }
+            }
+
+            h2{
+                color: #264a9b;
+                font-family: 'Paytone One', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .btn-send{
+                width: 80px;
+            }
+        }
+
+    }
+
+}
